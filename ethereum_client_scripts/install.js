@@ -7,7 +7,7 @@ import { debugToFile } from "./../helpers.js";
 
 export const latestGethVer = "1.17.1";
 export const latestRethVer = "1.11.3";
-export const latestLighthouseVer = "8.1.2";
+export const latestLighthouseVer = "8.1.3";
 
 export function installMacLinuxClient(clientName, platform) {
   const arch = os.arch();
